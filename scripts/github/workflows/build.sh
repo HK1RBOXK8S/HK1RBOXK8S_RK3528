@@ -47,7 +47,7 @@ df -mh
 # ./compile.sh build BOARD=rk3528-tvbox BRANCH=legacy BUILD_DESKTOP=yes BUILD_MINIMAL=no DESKTOP_APPGROUPS_SELECTED= DESKTOP_ENVIRONMENT=mate DESKTOP_ENVIRONMENT_CONFIG_NAME=config_base EXPERT=yes KERNEL_CONFIGURE=no KERNEL_GIT=shallow RELEASE=resolute
 free -mh
 df -mh
-ls output/
+ls output/images/
 echo "Build Done !"
 date=$(date +"%Y%m%d%H%M%S")
 if [ -f "output/images/Armbian-unofficial_26.5.0-trunk_Rk3528-tvbox_resolute_legacy_6.18.44_minimal.img" ];then
