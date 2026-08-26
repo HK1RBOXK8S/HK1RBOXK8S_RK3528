@@ -10,6 +10,4 @@ BOOT_SCENARIO="binman"
 WIREGUARD="no"
 IMAGE_PARTITION_TABLE="gpt"
 BOOTFS_TYPE="ext4"
-verbosity=7
-extraargs=console=ttyS0,1500000 earlycon=uart8250,mmio32,0xff9f0000
 
